@@ -178,17 +178,8 @@ Por esta razón es necesario asignar una contraseña al usuario root.
 Ejecutar:
 
 ```sql id="p8n4yr"
-ALTER USER 'root'@'localhost'
-IDENTIFIED BY 'nueva_contrasena';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Pa$$w0rd';
 ```
-
-> Sustituir:
->
-> ```text
-> nueva_contrasena
-> ```
->
-> por la contraseña definida para el curso.
 
 ---
 
