@@ -168,14 +168,6 @@ IDENTIFIED WITH mysql_native_password
 BY 'Pa$$w0rd';
 ```
 
-> Sustituir:
->
-> ```text
-> nueva_contrasena
-> ```
->
-> por la contraseña definida para el curso.
-
 ---
 
 # 12. Aplicar cambios
