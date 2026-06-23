@@ -164,7 +164,8 @@ Ejecutar:
 
 ```sql id="q6u1nm"
 ALTER USER 'root'@'localhost'
-IDENTIFIED BY 'nueva_contrasena';
+IDENTIFIED WITH mysql_native_password
+BY 'Pa$$w0rd';
 ```
 
 > Sustituir:
